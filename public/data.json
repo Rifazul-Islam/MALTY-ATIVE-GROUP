@@ -1,32 +1,38 @@
 [
     {
-        "img": "https//img.freepik.com/premium-photo/male-athlete-workout-running-exercise-machine-active-sport-training-gym_266732-208.jpg?size=626&ext=jpg&ga=GA1.2.294756914.1662569909",
+        "img": "https://img.freepik.com/premium-photo/male-athlete-workout-running-exercise-machine-active-sport-training-gym_266732-208.jpg?size=626&ext=jpg&ga=GA1.2.294756914.1662569909",
         "name": "Athlete-running-exercise",
-        "time": "20s"
+        "discripe": "Exercise can help prevent excess weight gain or help maintain weight loss. When you engage in physical activity,  ",
+        "time": 20
     },
     {
         "img": "https://img.freepik.com/premium-photo/muscular-tattooed-bearded-male-exercising_136403-9395.jpg?size=626&ext=jpg&ga=GA1.2.294756914.1662569909",
         "name": "muscular-tattooed-exercising",
-        "time": "30s"
+        "discripe": "The health benefits of regular exercise and physical activity are hard to ignore. Everyone benefits from exercise, regardless of age, sex or physical ability.",
+        "time": 30
     },
     {
         "img": "https://img.freepik.com/premium-photo/young-ordinary-man-go-sport-home-hardworking-freshman-sit-mat-abs-excercise-easy-start-workout-alone-apatment-beginner-action-sport-equipment-floor_186523-1196.jpg?size=626&ext=jpg&ga=GA1.2.294756914.1662569909",
         "name": "young-ordinary-man-excercise",
-        "time": "40s"
+        "discripe": "Exercise can help prevent excess weight gain or help maintain weight loss. When you engage in physical activity,  ",
+        "time": 40
     },
     {
         "img": "https://img.freepik.com/free-photo/concept-power-strength-healthy-lifestyle-sport-powerful-attractive-muscular-man-gym_155003-4993.jpg?size=626&ext=jpg&ga=GA1.2.294756914.1662569909",
         "name": "powerful-attractive-muscular-exercise",
-        "time": "45s"
+        "discripe": "The health benefits of regular exercise and physical activity are hard to ignore. Everyone benefits from exercise, regardless of age, sex or physical ability.",
+        "time": 45
     },
     {
         "img": "https://img.freepik.com/free-photo/bodybuilder-training-arm-with-resistance-band_7502-4758.jpg?size=626&ext=jpg&ga=GA1.2.294756914.1662569909",
         "name": "bodybuilder-training",
-        "time": "50s"
+        "discripe": "Exercise can help prevent excess weight gain or help maintain weight loss. When you engage in physical activity, ",
+        "time": 50
     },
     {
         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlZ5xQqlOGEDOrmS81P8HgJdl881pyHj7MZQ&usqp=CAU",
         "name": "National Exercise",
-        "time": "55s"
+        "discripe": "The health benefits of regular exercise and physical activity are hard to ignore. Everyone benefits from exercise, regardless of age, sex or physical ability.",
+        "time": 55
     }
 ]
