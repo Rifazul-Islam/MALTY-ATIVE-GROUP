@@ -2,6 +2,7 @@ import React from 'react';
 import Second from '../Second/Second';
 import './Cart.css';
 const Cart = (props) => {
+    // console.log(props)
     return (
         <div className='cart'>
             <div>
@@ -13,7 +14,7 @@ const Cart = (props) => {
                     <span> 35s</span>
                 </div>
 
-                <Second></Second>
+                <Second cart={props.cart} ></Second>
 
             </div>
         </div>

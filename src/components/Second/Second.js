@@ -1,6 +1,15 @@
 import React from 'react';
 import './Second.css'
 const Second = (props) => {
+    const { cart } = props;
+
+    let total = 0;
+    for (const p of cart) {
+
+        total = total + p.time;
+    }
+
+
 
     const activityHandelar = () => {
 
@@ -12,7 +21,7 @@ const Second = (props) => {
             <h2 style={{ color: 'blue' }}> Exercise Details</h2>
             <div className='small-style'>
                 <span> Exercise time</span>
-                <span> secend</span>
+                <span>{total} secend</span>
             </div>
 
             <div className='small-style'>

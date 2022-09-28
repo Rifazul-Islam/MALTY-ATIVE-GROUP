@@ -11,15 +11,22 @@ const Exercises = () => {
 
 
     const [excercises, setExcercises] = useState([])
+    const [cart, setCart] = useState([])
 
     useEffect(() => {
 
         fetch('data.json')
             .then(res => res.json())
             .then(data => setExcercises(data))
-    },)
+    }, [])
 
 
+    const addCart = (excercise) => {
+
+        let newCart = [...cart, excercise]
+        console.log(newCart)
+        setCart(newCart)
+    }
 
     return (
 
@@ -36,13 +43,15 @@ const Exercises = () => {
                         excercises.map(excercise =>
                             <Exercise key={excercise.name}
                                 excercise={excercise}
+                                addCart={addCart}
                             ></Exercise>)
                     }
                 </div>
                 <div className="right-site">
                     <div className='menu'>
+
                         <BIOData> </BIOData>
-                        <Cart></Cart>
+                        <Cart cart={cart}></Cart>
                     </div>
 
                 </div>
