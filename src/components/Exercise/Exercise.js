@@ -9,8 +9,11 @@ const Exercise = (props) => {
 
                 <h3> {name}</h3>
                 <p> {discripe}</p>
-                <p> time quarence : {time}s </p>
+                <h3> time quarence : {time}s</h3>
             </div>
+            <button className='btn-style'>
+                <p>AddCart</p>
+            </button>
         </div>
     );
 };
