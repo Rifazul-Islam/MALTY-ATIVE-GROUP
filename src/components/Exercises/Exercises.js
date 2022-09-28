@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import BIOData from '../BIOData/BIOData';
 import Exercise from '../Exercise/Exercise';
 import './Exercises.css';
 
@@ -23,7 +24,7 @@ const Exercises = () => {
 
         <div>
             <h2 style={{ color: 'green', marginLeft: '20px' }
-            }> MOLTY - Ative - Group</h2 >
+            }> MALTY-Ative-Group</h2 >
             <h3 style={{ marginLeft: '20px' }
             }>Seleced Everyday Exercise</h3>
             <div className="exercises-container">
@@ -38,11 +39,8 @@ const Exercises = () => {
                     }
                 </div>
                 <div className="right-site">
-
-                    <h2>Oder Summary</h2>
-
+                    <BIOData> </BIOData>
                 </div>
-
             </div>
         </div>
     );

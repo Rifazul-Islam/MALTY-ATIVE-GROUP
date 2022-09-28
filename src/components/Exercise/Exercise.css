@@ -27,6 +27,8 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: goldenrod;
+    background-color: #C70039;
     border: none;
+    font-size: 16px;
+    color: white;
 }

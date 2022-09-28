@@ -1,0 +1,27 @@
+.menu {
+    position: sticky;
+    top: 0px;
+    margin-left: 10px;
+    text-align: center;
+
+
+}
+
+.bio-data {
+
+    display: flex;
+    justify-content: center;
+    margin-right: 2px;
+    background-color: bisque;
+    border-radius: 7px;
+
+
+
+}
+
+.bio-data p {
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
