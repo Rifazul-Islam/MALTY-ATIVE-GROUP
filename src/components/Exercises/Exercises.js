@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import BIOData from '../BIOData/BIOData';
+import Cart from '../Cart/Cart';
 import Exercise from '../Exercise/Exercise';
 import './Exercises.css';
 
@@ -39,7 +40,11 @@ const Exercises = () => {
                     }
                 </div>
                 <div className="right-site">
-                    <BIOData> </BIOData>
+                    <div className='menu'>
+                        <BIOData> </BIOData>
+                        <Cart></Cart>
+                    </div>
+
                 </div>
             </div>
         </div>

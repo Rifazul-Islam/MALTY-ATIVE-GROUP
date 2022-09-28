@@ -1,0 +1,19 @@
+import React from 'react';
+import './Cart.css';
+const Cart = (props) => {
+    return (
+        <div className='cart'>
+            <div>
+                <h2> Add a Breack</h2>
+                <div className='small-cart'>
+                    <span> 20s</span>
+                    <span> 40s</span>
+                    <span> 30s</span>
+                    <span> 35s</span>
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default Cart;

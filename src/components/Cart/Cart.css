@@ -1,0 +1,14 @@
+.small-cart {
+
+    border: 2px solid green;
+    padding: 12px;
+    margin-right: 4px;
+    background-color: azure;
+    border: none;
+
+}
+
+.small-cart span {
+
+    margin-right: 10px;
+}

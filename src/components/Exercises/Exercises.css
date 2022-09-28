@@ -21,4 +21,14 @@
     padding-left: 10px;
 
 
+
+}
+
+.menu {
+    position: sticky;
+    top: 0px;
+    margin-left: 1px;
+    text-align: center;
+
+
 }
