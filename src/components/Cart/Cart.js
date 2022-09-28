@@ -1,4 +1,5 @@
 import React from 'react';
+import Second from '../Second/Second';
 import './Cart.css';
 const Cart = (props) => {
     return (
@@ -11,6 +12,9 @@ const Cart = (props) => {
                     <span> 30s</span>
                     <span> 35s</span>
                 </div>
+
+                <Second></Second>
+
             </div>
         </div>
     );
