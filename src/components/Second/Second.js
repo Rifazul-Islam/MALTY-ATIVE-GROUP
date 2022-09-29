@@ -27,7 +27,7 @@ const Second = (props) => {
             <div className='small-style'>
 
                 <span> Breack time</span>
-                <span>  second</span>
+                <span> {props.nuber} second</span>
 
             </div>
             <button onClick={activityHandelar} className='btn-activity'>

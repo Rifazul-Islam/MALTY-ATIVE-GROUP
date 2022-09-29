@@ -1,10 +1,16 @@
 import React from 'react';
+import { useState } from 'react';
+
 
 import Second from '../Second/Second';
 import './Cart.css';
 const Cart = (props) => {
     // console.log(props)
 
+    const [nuber, setNuber] = useState(0)
+    const handdear = (num1) => {
+        setNuber(num1)
+    }
 
     return (
         <div className='cart'>
@@ -13,14 +19,16 @@ const Cart = (props) => {
                 <div className='small-cart'>
 
 
-                    <button>20</button>
-                    <button>30</button>
-                    <button>40</button>
-                    <button>50</button>
+                    <button onClick={() => handdear(20)} >20</button>
+                    <button onClick={() => handdear(30)}>30</button>
+                    <button onClick={() => handdear(40)} >40</button>
+                    <button onClick={() => handdear(50)}>50</button>
 
                 </div>
 
-                <Second cart={props.cart} ></Second>
+                <Second cart={props.cart}
+                    nuber={nuber}
+                ></Second>
 
             </div>
         </div>
