@@ -3,15 +3,14 @@
     margin-left: 180px;
     margin-top: 50px;
 
-
-
 }
 
 
-.blog1 {
+.blog {
 
     margin-top: 30px;
-    height: 200px;
+    padding-top: 10px;
+    height: 330px;
     background-color: rgb(178, 178, 189);
     width: 90%;
     font-size: 17px;

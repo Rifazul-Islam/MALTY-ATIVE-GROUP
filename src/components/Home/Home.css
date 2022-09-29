@@ -2,3 +2,19 @@ body {
 
     background-color: rgb(200, 237, 249);
 }
+
+.logo-align {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+
+}
+
+.logo {
+    height: 60px;
+}
+
+.text {
+    margin-left: 60px;
+    color: brown;
+}

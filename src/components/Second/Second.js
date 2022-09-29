@@ -1,5 +1,7 @@
 import React from 'react';
-import './Second.css'
+import './Second.css';
+
+
 const Second = (props) => {
     const { cart } = props;
 
@@ -9,12 +11,11 @@ const Second = (props) => {
         total = total + p.time;
     }
 
+    const handerlar = () => {
 
-
-    const activityHandelar = () => {
-
-        alert('WelCome Completed your site')
+        alert('WelCome and other')
     }
+
 
     return (
         <div>
@@ -31,7 +32,7 @@ const Second = (props) => {
 
             </div>
             <div className='btn-positin'>
-                <button onClick={activityHandelar} className='btn-activity'>
+                <button onClick={handerlar} className='btn-activity'>
                     Activity Completed
                 </button>
             </div>
