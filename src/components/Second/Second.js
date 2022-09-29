@@ -30,9 +30,11 @@ const Second = (props) => {
                 <span> {props.nuber} second</span>
 
             </div>
-            <button onClick={activityHandelar} className='btn-activity'>
-                Activity Completed
-            </button>
+            <div className='btn-positin'>
+                <button onClick={activityHandelar} className='btn-activity'>
+                    Activity Completed
+                </button>
+            </div>
         </div>
     );
 };

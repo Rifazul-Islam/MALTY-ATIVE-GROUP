@@ -9,10 +9,10 @@ const Question = () => {
                 <h2>1. How does react work..? </h2>
                 <p>One of the biggest advantages of using React is that  can infuse HTML code with JavaScript.Users can create a representation of a DOM node by declaring the Element function in React.JSX tags have a name, children, and attributes. Numeric values and expressions must be written inside curly brackets. </p>
             </div>
-            {/* <div className='blog1'>
-                <h2> props and state difference in react..? </h2>
-                Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and  The this. setState property is used to update the state values in the
-            </div> */}
+            <div className='blog1'>
+                <h2>2. Props and state difference in react..? </h2>
+                Both the props and the state decide what data the component will display. They are simple Javascript objects that will re-render the component every time  Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and  The this.
+            </div>
 
 
         </div>

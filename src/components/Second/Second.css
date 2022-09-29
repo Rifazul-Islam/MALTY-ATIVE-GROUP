@@ -10,7 +10,7 @@
     border-radius: 7px;
     margin-bottom: 10px;
     border: none;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 
 }
 
@@ -28,5 +28,13 @@
     border: none;
     color: blanchedalmond;
     font-size: 18px;
+
+
+}
+
+.btn-positin {
+
+    margin-left: 10px;
+    margin-top: 70px;
 
 }

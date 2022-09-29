@@ -48,11 +48,11 @@ const Exercises = () => {
                     }
                 </div>
                 <div className="right-site">
-                    <div className='menu'>
 
-                        <BIOData> </BIOData>
-                        <Cart cart={cart}></Cart>
-                    </div>
+
+                    <BIOData> </BIOData>
+                    <Cart cart={cart}></Cart>
+
 
                 </div>
             </div>
