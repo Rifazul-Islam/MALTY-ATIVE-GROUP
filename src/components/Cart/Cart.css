@@ -1,5 +1,6 @@
 .small-cart {
-
+    display: flex;
+    justify-content: space-between;
     border: 2px solid green;
     padding: 15px;
     margin-right: 4px;
@@ -8,9 +9,15 @@
     margin-bottom: 10px;
     border: none;
 
+
 }
 
-.small-cart span {
+.small-cart button {
 
     margin-right: 10px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: aquamarine;
+
 }
