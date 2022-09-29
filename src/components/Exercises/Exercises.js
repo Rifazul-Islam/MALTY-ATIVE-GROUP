@@ -31,8 +31,12 @@ const Exercises = () => {
     return (
 
         <div>
-            <h2 style={{ color: 'green', marginLeft: '20px' }
-            }> MALTY-Ative-Group</h2 >
+            <div className='logo-align'>
+                <img className='logo' src=" https://images-platform.99static.com/8QVhsq0xUI9KAGH6WZXUmnWohwI=/0x0:1574x1574/500x500/top/smart/99designs-contests-attachments/97/97489/attachment_97489210" alt="" />
+
+                <h2 style={{ color: 'green', marginLeft: '20px' }
+                }> MALTY-Ative-Group</h2 >
+            </div>
             <h3 style={{ marginLeft: '20px' }
             }>Seleced Everyday Exercise</h3>
             <div className="exercises-container">
