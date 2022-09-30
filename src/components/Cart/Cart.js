@@ -5,12 +5,29 @@ import { useState } from 'react';
 import Second from '../Second/Second';
 import './Cart.css';
 const Cart = (props) => {
-    // console.log(props)
 
-    const [nuber, setNuber] = useState(0)
+    const [number, setNumber] = useState(0)
     const handdear = (num1) => {
-        setNuber(num1)
+        localStorage.setItem('secondS', num1)
+        setNumber(num1)
+
     }
+
+    const fataFromLocalStorage = () => {
+        let second = {};
+        const getLocalValue = localStorage.getItem('secondS')
+        if (getLocalValue) {
+            second = JSON.parse(getLocalValue)
+        }
+        else {
+            const getLocalValue = localStorage.setItem('secondS', 0)
+            second = JSON.stringify(getLocalValue)
+        }
+
+        handdear(second)
+
+    }
+
 
     return (
         <div className='cart'>
@@ -26,8 +43,10 @@ const Cart = (props) => {
 
                 </div>
 
-                <Second cart={props.cart}
-                    nuber={nuber}
+                <Second
+                    cart={props.cart}
+                    fataFromLocalStorage={fataFromLocalStorage}
+                    number={number}
                 ></Second>
 
             </div>

@@ -1,9 +1,9 @@
 import React from 'react';
 import './Second.css';
+import Swal from 'sweetalert2';
 
 
-const Second = (props) => {
-    const { cart } = props;
+const Second = ({ cart, number, fataFromLocalStorage }) => {
 
     let total = 0;
     for (const p of cart) {
@@ -13,7 +13,11 @@ const Second = (props) => {
 
     const handerlar = () => {
 
-        alert('WelCome and other')
+        Swal.fire(
+            'Welcome!',
+            'You clicked the button!',
+            'success'
+        )
     }
 
 
@@ -28,7 +32,7 @@ const Second = (props) => {
             <div className='small-style'>
 
                 <span> Breack time</span>
-                <span> {props.nuber} second</span>
+                <span onLoad={fataFromLocalStorage()}>  {number} second</span>
 
             </div>
             <div className='btn-positin'>
