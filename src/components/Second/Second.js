@@ -3,7 +3,8 @@ import './Second.css';
 import Swal from 'sweetalert2';
 
 
-const Second = ({ cart, number, fataFromLocalStorage }) => {
+const Second = (props) => {
+    const { cart, number } = props
 
     let total = 0;
     for (const p of cart) {
@@ -32,7 +33,7 @@ const Second = ({ cart, number, fataFromLocalStorage }) => {
             <div className='small-style'>
 
                 <span> Breack time</span>
-                <span onLoad={fataFromLocalStorage()}>  {number} second</span>
+                <span>  {number} second</span>
 
             </div>
             <div className='btn-positin'>

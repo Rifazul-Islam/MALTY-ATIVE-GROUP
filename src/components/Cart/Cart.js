@@ -8,25 +8,25 @@ const Cart = (props) => {
 
     const [number, setNumber] = useState(0)
     const handdear = (num1) => {
-        localStorage.setItem('secondS', num1)
+
         setNumber(num1)
 
-    }
+        const secondStorge = localStorage.getItem("second")
+        const oldmark = JSON.parse(secondStorge)
+        if (oldmark) {
 
-    const fataFromLocalStorage = () => {
-        let second = {};
-        const getLocalValue = localStorage.getItem('secondS')
-        if (getLocalValue) {
-            second = JSON.parse(getLocalValue)
+            localStorage.setItem("second", JSON.stringify([...oldmark, num1]))
+
         }
+
         else {
-            const getLocalValue = localStorage.setItem('secondS', 0)
-            second = JSON.stringify(getLocalValue)
+
+            localStorage.setItem("second", JSON.stringify([num1]))
         }
 
-        handdear(second)
-
     }
+
+
 
 
     return (
@@ -45,7 +45,7 @@ const Cart = (props) => {
 
                 <Second
                     cart={props.cart}
-                    fataFromLocalStorage={fataFromLocalStorage}
+
                     number={number}
                 ></Second>
 

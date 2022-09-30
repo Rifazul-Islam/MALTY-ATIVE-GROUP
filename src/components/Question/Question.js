@@ -11,7 +11,7 @@ const Question = () => {
             </div>
             <div className='blog'>
                 <h2>2. Props and state difference in react..? </h2>
-                Both the props and the state decide what data the component will display. They are simple Javascript objects that will re-render the component every time  Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and  The this.
+                Both the props and the state decide  data the component will display. They are simple Javascript objects that will re-render the component every time  Props are used to pass data from one component to another. The state is a local data storage that is local to the component only and  The this.
             </div>
 
 
